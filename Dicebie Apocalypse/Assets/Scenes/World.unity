@@ -976,10 +976,10 @@ RectTransform:
   m_Father: {fileID: 70332967}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -860.4, y: -71.5}
-  m_SizeDelta: {x: 120, y: 120}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 50, y: -68}
+  m_SizeDelta: {x: 68.61917, y: 74.09027}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &77901916
 MonoBehaviour:
@@ -1106,10 +1106,10 @@ RectTransform:
   m_Father: {fileID: 70332967}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -865, y: 200}
-  m_SizeDelta: {x: 120, y: 120}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 63.150024, y: -4.53}
+  m_SizeDelta: {x: 79.155334, y: 74.049835}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &84778221
 MonoBehaviour:
@@ -1236,8 +1236,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 400, y: 2}
-  m_SizeDelta: {x: 563.66797, y: 132.203}
+  m_AnchoredPosition: {x: 309, y: -6.5}
+  m_SizeDelta: {x: 381.5692, y: 115.18445}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &97078217
 MonoBehaviour:
@@ -1258,9 +1258,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Craft Scrap metal Dice
-
-    cost 15 scrap'
+  m_text: "Craft Scrap metal Dice \nCost 15 scrap"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e2be2b74aef313442b51cb7c1f151a67, type: 2}
   m_sharedMaterial: {fileID: 4920772599180312535, guid: e2be2b74aef313442b51cb7c1f151a67,
@@ -1288,8 +1286,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7078,8 +7076,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 210, y: 1}
-  m_SizeDelta: {x: 395.1117, y: 13.298187}
+  m_AnchoredPosition: {x: 212.7, y: -3.9}
+  m_SizeDelta: {x: 396.20496, y: 60.3062}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &735778465
 MonoBehaviour:
@@ -7101,11 +7099,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_Font: {fileID: 12800000, guid: f08773c9fc29dc44b9d9d245707ccfdf, type: 3}
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 5
+    m_MinSize: 0
     m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -11110,10 +11108,10 @@ RectTransform:
   m_Father: {fileID: 70332967}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -865, y: 330}
-  m_SizeDelta: {x: 120, y: 120}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 64, y: 90.977}
+  m_SizeDelta: {x: 77.45355, y: 78.04974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1077214980
 MonoBehaviour:
@@ -14360,7 +14358,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1453261225
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14378,10 +14376,10 @@ RectTransform:
   m_Father: {fileID: 70332967}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 946.8, y: -538.21}
+  m_SizeDelta: {x: 1403.9264, y: 868.42285}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1455387246
 GameObject:
@@ -15380,8 +15378,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 391, y: -2}
-  m_SizeDelta: {x: 563.66797, y: 132.203}
+  m_AnchoredPosition: {x: 325.5, y: -7.1}
+  m_SizeDelta: {x: 432.6247, y: 121.99188}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1518745263
 MonoBehaviour:
@@ -15432,8 +15430,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -18371,10 +18369,10 @@ RectTransform:
   m_Father: {fileID: 70332967}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -865, y: 70}
-  m_SizeDelta: {x: 120, y: 120}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 64, y: -94.465}
+  m_SizeDelta: {x: 77.45438, y: 74.070465}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1795078343
 MonoBehaviour:
@@ -19490,8 +19488,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 400, y: 3}
-  m_SizeDelta: {x: 563.66797, y: 132.203}
+  m_AnchoredPosition: {x: 237.5, y: 1.2}
+  m_SizeDelta: {x: 888.65015, y: 128.6706}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1904178091
 MonoBehaviour:
@@ -19512,9 +19510,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Craft Metal Dice
-
-    cost 25 Metal'
+  m_text: "Craft Metal Dice\n            Cost 25 Metal"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e2be2b74aef313442b51cb7c1f151a67, type: 2}
   m_sharedMaterial: {fileID: 4920772599180312535, guid: e2be2b74aef313442b51cb7c1f151a67,
@@ -19542,8 +19538,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -22279,7 +22275,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 242, y: -29}
+  m_AnchoredPosition: {x: 226, y: -35}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2112879164
