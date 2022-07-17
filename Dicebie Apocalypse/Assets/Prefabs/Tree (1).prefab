@@ -124,3 +124,5 @@ MonoBehaviour:
   SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
+  Particle: {fileID: 5192458528073027346, guid: 28139ccca916e1949884d418a2cd43e1,
+    type: 3}

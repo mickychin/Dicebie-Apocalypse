@@ -8,6 +8,7 @@ public class Tree : MonoBehaviour
     public bool SummonTree = false;
     public Zombie zombie;
     public float hp = 6;
+    public GameObject Particle;
     void start()
     {
         if (SummonTree)
@@ -37,6 +38,7 @@ public class Tree : MonoBehaviour
         {
             Dice die = collision.gameObject.GetComponent<Dice>();
             hp -= die.DieOutput * die.DiceDamage;
+            Instantiate(Particle,transform.position, Quaternion.identity);
             //Debug.Log(hp);
             collision.gameObject.GetComponent<Dice>().BounceOffSMTH();
             if (hp <= 0)
