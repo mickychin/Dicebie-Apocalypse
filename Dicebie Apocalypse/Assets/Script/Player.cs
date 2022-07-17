@@ -168,9 +168,9 @@ public class Player : MonoBehaviour
         //{
         //    currentDice = diceto;
         //}
-        if (diceto == "iron" && gm.Iron >= 25)
+        if (diceto == "iron" && gm.Iron >= 20)
         {
-            gm.Iron -= 25;
+            gm.Iron -= 20;
             currentDice = diceto;
         }
         if (diceto == "scrap" && gm.Scrap >= 15)

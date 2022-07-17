@@ -99,5 +99,10 @@ public class Zombie : MonoBehaviour
                 animator.SetTrigger("Dead");
             }
         }
+
+        if (collision.gameObject.CompareTag("Player") && IsAttacking)
+        {
+            FindObjectOfType<GameMaster>().PlayerLoseHp(1f);
+        }
     }
 }
