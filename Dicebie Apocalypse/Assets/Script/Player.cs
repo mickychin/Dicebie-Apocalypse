@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    public float PaperDice = 1;
+    public float IronDiceHave = 0;
+    public float ScrapDiceHave = 0;
+    public float WoodDiceHave = 0;
     public string currentDice;
     Animator animator;
 
@@ -30,7 +33,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentDice = "paper";
+        //currentDice = "paper";
         canShoot = true;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -68,8 +71,33 @@ public class Player : MonoBehaviour
         //Target of the dice are at the mouse pos
         target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        if (Input.GetMouseButtonDown(0) && canShoot == true)
+        if (Input.GetMouseButtonDown(0))
         {
+            if(IronDiceHave > 0)
+            {
+                currentDice = "iron";
+                IronDiceHave--;
+            }
+            else if(ScrapDiceHave > 0)
+            {
+                currentDice = "scrap";
+                ScrapDiceHave--;
+            }
+            else if (WoodDiceHave > 0)
+            {
+                currentDice = "wood";
+                WoodDiceHave--;
+            }
+            else if (PaperDice > 0)
+            {
+                currentDice = "paper";
+                PaperDice--;
+            }
+            else
+            {
+                Debug.Log("You have no dice left go pick it up u **************");
+                return;
+            }
             //Shoot the dice
             Vector3 difference = target - transform.position;
             float rotationZ = Mathf.Atan2(difference.y, difference.x);
@@ -112,7 +140,7 @@ public class Player : MonoBehaviour
 
         yield return new WaitForSeconds(fireRate);
 
-        canShoot = true;
+        //canShoot = true;
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -163,7 +191,7 @@ public class Player : MonoBehaviour
         if (diceto == "wood" && gm.Wood >= 10)
         {
             gm.Wood -= 10;
-            currentDice = diceto;
+            WoodDiceHave++;
         }
         //if(diceto == "plastic" && gm.Plastic >= 50)
         //{
@@ -172,12 +200,39 @@ public class Player : MonoBehaviour
         if (diceto == "iron" && gm.Iron >= 20)
         {
             gm.Iron -= 20;
-            currentDice = diceto;
+            IronDiceHave++;
         }
         if (diceto == "scrap" && gm.Scrap >= 15)
         {
             gm.Scrap -= 15;
-            currentDice = diceto;
+            ScrapDiceHave++;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        //Debug.Log(collision.gameObject.tag);
+        if (collision.gameObject.CompareTag("Dice"))
+        {
+            Debug.Log("work!!");
+            Dice die = collision.gameObject.GetComponentInParent<Dice>();
+            if (die.currentDice == "scrap")
+            {
+                ScrapDiceHave++;
+            }
+            if (die.currentDice == "iron")
+            {
+                IronDiceHave++;
+            }
+            if (die.currentDice == "wood")
+            {
+                WoodDiceHave++;
+            }
+            if (die.currentDice == "paper")
+            {
+                PaperDice++;
+            }
+            Destroy(die.gameObject);
         }
     }
 }

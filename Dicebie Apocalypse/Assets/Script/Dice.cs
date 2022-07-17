@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Dice : MonoBehaviour
 {
+    public GameObject collectdie;
+
     public float DiceDamage;
     public string currentDice;
     public Sprite[] PaperDice;
@@ -56,5 +58,6 @@ public class Dice : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x * 0.3f, rb.velocity.y * 0.3f);
         }
+        collectdie.SetActive(true);
     }
 }

@@ -8,6 +8,7 @@ TagManager:
   - Workbench
   - Furnance
   - NoTC
+  - CollectDie
   layers:
   - Default
   - TransparentFX
@@ -19,8 +20,8 @@ TagManager:
   - 
   - Dice
   - Player
-  - 
-  - 
+  - CollectDie
+  - StopDice
   - 
   - 
   - 
