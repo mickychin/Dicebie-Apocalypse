@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bef934b83702e9c4ab5b8976615e5d04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ZombieHP: 10
+  ZombieHP: 20
   zombieSpeed: 3
   MaxDistance: 10
   IsAttacking: 0
