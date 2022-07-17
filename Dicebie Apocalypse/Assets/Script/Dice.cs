@@ -50,7 +50,8 @@ public class Dice : MonoBehaviour
 
     public void BounceOffSMTH()
     {
-        Debug.Log("work");
+        GetComponent<BoxCollider2D>().enabled = false;
+        //Debug.Log("work");
         while(rb.velocity.x != 0|| rb.velocity.y != 0)
         {
             rb.velocity = new Vector2(rb.velocity.x * 0.3f, rb.velocity.y * 0.3f);

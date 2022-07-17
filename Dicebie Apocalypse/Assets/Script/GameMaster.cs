@@ -57,14 +57,19 @@ public class GameMaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Invoke("GenerateStuff", Random.Range(5, 10));
-        Invoke("GenerateStuff", Random.Range(5, 10));
+
+    }
+
+    public void PlayerLoseHp(float HpLoses)
+    {
+        PlayerHP -= HpLoses;
+
         for (int i = 3; i > PlayerHP; i--)
         {
             //Debug.Log(i - 1);
             HPIM[i - 1].gameObject.SetActive(false);
         }
-        if(PlayerHP <= 0)
+        if (PlayerHP <= 0)
         {
             Time.timeScale = 0f;
         }
