@@ -61,7 +61,9 @@ public class GameMaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        WoodText.text = Wood.ToString();
+        IronText.text = Iron.ToString();
+        ScrapText.text = Scrap.ToString();
     }
 
     void SummonZombie()
