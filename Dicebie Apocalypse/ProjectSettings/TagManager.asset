@@ -7,7 +7,6 @@ TagManager:
   - Dice
   - Workbench
   - Furnance
-  - DontSummonHere
   layers:
   - Default
   - TransparentFX

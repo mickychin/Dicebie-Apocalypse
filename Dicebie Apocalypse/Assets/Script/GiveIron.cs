@@ -4,34 +4,8 @@ using UnityEngine;
 
 public class GiveIron : MonoBehaviour
 {
-    public ContactPoint2D[] smth;
-    public bool SummonTree = false;
     public Zombie zombie;
     public float hp = 6;
-
-    void start()
-    {
-
-        if (SummonTree)
-        {
-            Invoke("NotSUmmonTree", 1f);
-        }
-    }
-
-    void NotSUmmonTree()
-    {
-        SummonTree = false;
-    }
-
-    void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.gameObject.CompareTag("DontSummonHere") && SummonTree)
-        {
-            SummonTree = false;
-            transform.position = new Vector2(Random.Range(-100f, 100f), Random.Range(-100f, 100f));
-        }
-    }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //
