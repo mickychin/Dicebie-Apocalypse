@@ -143,13 +143,19 @@ public class Player : MonoBehaviour
             }
             
         }
+        
+
+
+    }
+
+    void FixedUpdate()
+    {
         PaperDiceCount.text = PaperDice.ToString();
         WoodDiceCount.text = WoodDiceHave.ToString();
         ScrapDiceCount.text = ScrapDiceHave.ToString();
         IronDiceCount.text = IronDiceHave.ToString();
-
-
     }
+
 
     IEnumerator fireDice(Vector2 direction, float rotationZZ)
     {
