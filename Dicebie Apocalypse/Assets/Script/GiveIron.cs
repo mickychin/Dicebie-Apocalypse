@@ -36,7 +36,7 @@ public class GiveIron : MonoBehaviour
         {
             Dice die = collision.gameObject.GetComponent<Dice>();
             hp -= die.DieOutput * die.DiceDamage;
-            Debug.Log(hp);
+            //Debug.Log(hp);
             collision.gameObject.GetComponent<Dice>().BounceOffSMTH();
             if (hp <= 0)
             {
