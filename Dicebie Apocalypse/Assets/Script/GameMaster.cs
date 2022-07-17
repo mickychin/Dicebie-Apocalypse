@@ -6,6 +6,10 @@ using TMPro;
 
 public class GameMaster : MonoBehaviour
 {
+    public float currentTree;
+    public GameObject woodPrefabs;
+    public GameObject carPrefabs;
+
     public float CostToMakeIron;
     public Image[] HPIM;
     public float PlayerHP;
@@ -30,6 +34,8 @@ public class GameMaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Invoke("GenerateStuff", Random.Range(5, 10));
+        Invoke("GenerateStuff", Random.Range(5, 10));
         for (int i = 3; i > PlayerHP; i--)
         {
             //Debug.Log(i - 1);
@@ -45,5 +51,24 @@ public class GameMaster : MonoBehaviour
         PlasticText.text = Plastic.ToString();
         //Debug.Log(CostToMakeIron - 1);
         CostOfIronIm.GetComponent<Image>().sprite = numberDice[(int)CostToMakeIron - 1];
+    }
+
+    void GenerateStuff()
+    {
+        if (currentTree >= 80)
+        {
+            return;
+        }
+            currentTree++;
+        GameObject wood = Instantiate(woodPrefabs);
+        wood.transform.position = new Vector2(Random.Range(-100f, 100f), Random.Range(-100f, 100f));
+        wood.GetComponent<Tree>().SummonTree = true;
+
+        //stone is car
+        GameObject stone = Instantiate(carPrefabs);
+        stone.transform.position = new Vector2(Random.Range(-100f, 100f), Random.Range(-100f, 100f));
+        stone.GetComponent<GiveIron>().SummonTree = true;
+
+        Invoke("GenerateStuff", Random.Range(5, 10));
     }
 }
