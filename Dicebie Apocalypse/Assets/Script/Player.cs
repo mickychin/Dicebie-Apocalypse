@@ -23,6 +23,9 @@ public class Player : MonoBehaviour
     public Button[] CraftDieButt;
     public Button MakeIronButt;
 
+    public GameObject Car;
+    public bool isCar;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -75,6 +78,17 @@ public class Player : MonoBehaviour
             StartCoroutine(fireDice(direction, rotationZ));
 
             canShoot = false;
+        }
+
+        if(isCar)
+        {
+            Car.SetActive(true);
+            moveSpeed = 20;
+        }
+        else
+        {
+            Car.SetActive(false);
+            moveSpeed = 5;  
         }
 
     }
