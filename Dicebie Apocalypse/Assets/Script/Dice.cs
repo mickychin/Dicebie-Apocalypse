@@ -18,27 +18,33 @@ public class Dice : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        currentDice = "paper";
         render = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         DieOutput = Random.Range(1, 7);
         if(currentDice == "paper")
         {
+            DiceDamage = 0.5f;
             render.sprite = PaperDice[(int)DieOutput - 1];
         }
         if (currentDice == "iron")
         {
+            DiceDamage = 1.5f;
             render.sprite = IronDice[(int)DieOutput - 1];
         }
         if (currentDice == "wood")
         {
+            DiceDamage = 0.75f;
             render.sprite = WoodenDice[(int)DieOutput - 1];
         }
         if (currentDice == "plastic")
         {
+            DiceDamage = 3f;
             render.sprite = PlasticDice[(int)DieOutput - 1];
         }
         if (currentDice == "scrap")
         {
+            DiceDamage = 1f;
             render.sprite = scrapDice[(int)DieOutput - 1];
         }
     }

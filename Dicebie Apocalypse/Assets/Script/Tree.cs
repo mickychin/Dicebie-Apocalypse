@@ -12,15 +12,15 @@ public class Tree : MonoBehaviour
         if (collision.gameObject.CompareTag("Dice"))
         {
             Dice die = collision.gameObject.GetComponent<Dice>();
-            hp -= die.DieOutput;
+            hp -= die.DieOutput * die.DiceDamage;
             Debug.Log(hp);
             collision.gameObject.GetComponent<Dice>().BounceOffSMTH();
             if (hp <= 0)
             {
-                if (die.DieOutput > 1)
+                if (die.DieOutput > 2)
                 {
                     //get amount of wood base on the dice
-                    FindObjectOfType<GameMaster>().Wood += die.DieOutput;
+                    FindObjectOfType<GameMaster>().Wood += die.DieOutput * die.DiceDamage;
                 }
                 else
                 {
