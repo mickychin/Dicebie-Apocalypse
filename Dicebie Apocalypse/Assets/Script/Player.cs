@@ -88,7 +88,15 @@ public class Player : MonoBehaviour
         else
         {
             Car.SetActive(false);
-            moveSpeed = 5;  
+            if(Input.GetKey(KeyCode.LeftShift))
+            {
+                moveSpeed = 10;
+            }
+            else
+            {
+                moveSpeed = 5; 
+            }
+            
         }
 
     }
