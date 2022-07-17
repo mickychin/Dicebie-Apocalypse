@@ -297,12 +297,12 @@ GameObject:
   - component: {fileID: 172466468}
   - component: {fileID: 172466467}
   m_Layer: 5
-  m_Name: RawImage
+  m_Name: HowToPLayMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &172466466
 RectTransform:
   m_ObjectHideFlags: 0
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 32861000e00380e45b1a7b1be76d3f60, type: 3}
+  m_Texture: {fileID: 2800000, guid: 616f9c49276ce9b4e87625fabbb6d3f4, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -622,7 +622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ded0caed6dcee44f855b6232db7777d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Howtoplay: {fileID: 0}
+  Howtoplay: {fileID: 172466465}
 --- !u!1 &491473813
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,9 +733,9 @@ RectTransform:
   m_Father: {fileID: 172466466}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -418.2, y: -45.5}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 166.79999, y: -107.5}
   m_SizeDelta: {x: 309.844, y: 70.34535}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &594160982
@@ -835,7 +835,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 32861000e00380e45b1a7b1be76d3f60, type: 3}
+  m_Texture: {fileID: 2800000, guid: 616f9c49276ce9b4e87625fabbb6d3f4, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -887,7 +887,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: -288}
+  m_AnchoredPosition: {x: 5, y: -150}
   m_SizeDelta: {x: 244.90369, y: 97.3374}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &774634037
@@ -934,7 +934,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 470027176}
-        m_MethodName: QuitGame
+        m_MethodName: HowToPlay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1031,7 +1031,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.11841093, g: 0.03951584, b: 0.2264151, a: 1}
+  m_Color: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1305,7 +1305,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -150}
+  m_AnchoredPosition: {x: 0, y: -280}
   m_SizeDelta: {x: 244.90369, y: 97.3374}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1224549718
@@ -1844,7 +1844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6320754, g: 0.04472231, b: 0.13938881, a: 1}
+  m_Color: {r: 0.59769666, g: 0.04313724, b: 0.6313726, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
