@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    public GameObject Howtoplay;
     public void StartGame()
     {
         SceneManager.LoadScene(1);
@@ -13,5 +14,18 @@ public class Menu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void HowToPlay()
+    {
+        Howtoplay.SetActive(true);
+    }
+
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Howtoplay.SetActive(false);
+        }
     }
 }
