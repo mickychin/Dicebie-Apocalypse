@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameMaster : MonoBehaviour
 {
@@ -99,7 +100,7 @@ public class GameMaster : MonoBehaviour
         }
         if (PlayerHP <= 0)
         {
-            Time.timeScale = 0f;
+            SceneManager.LoadScene(2);
         }
         ScrapText.text = Scrap.ToString();
         WoodText.text = Wood.ToString();
