@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Tree : MonoBehaviour
 {
+    public Zombie zombie;
     public float hp = 6;
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -17,7 +18,7 @@ public class Tree : MonoBehaviour
             collision.gameObject.GetComponent<Dice>().BounceOffSMTH();
             if (hp <= 0)
             {
-                if (die.DieOutput > 2)
+                if (die.DieOutput > 1)
                 {
                     //get amount of wood base on the dice
                     FindObjectOfType<GameMaster>().Wood += die.DieOutput * die.DiceDamage;
@@ -25,6 +26,7 @@ public class Tree : MonoBehaviour
                 else
                 {
                     //well too bad you got 1 so summon zombie
+                    Zombie spawn = Instantiate(zombie, transform.position, Quaternion.identity);
                 }
                 Destroy(gameObject);
             }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Zombie : MonoBehaviour
 {
+    Rigidbody2D rb;
     public float ZombieHP;
     Animator animator;
     public float zombieSpeed;
@@ -15,6 +16,7 @@ public class Zombie : MonoBehaviour
 
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         IsAttacking = false;
         animator = GetComponent<Animator>();
         mask = LayerMask.GetMask("Player");
@@ -24,6 +26,16 @@ public class Zombie : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (ZombieHP <= 0)
+        {
+            while (rb.velocity.x != 0 || rb.velocity.y != 0)
+            {
+                rb.velocity = new Vector2(rb.velocity.x * 0.3f, rb.velocity.y * 0.3f);
+            }
+            return;
+        }
+
         if(FindObjectOfType<Player>().transform.position.x > transform.position.x)
         {
             transform.localScale = new Vector3(-0.5f, transform.localScale.y, transform.localScale.z);
@@ -73,5 +85,19 @@ public class Zombie : MonoBehaviour
     public void IsIsAttacking()
     {
         IsAttacking = true;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Dice"))
+        {
+            Dice die = collision.gameObject.GetComponent<Dice>();
+            ZombieHP -= die.DieOutput * die.DiceDamage;
+            collision.gameObject.GetComponent<Dice>().BounceOffSMTH();
+            if(ZombieHP <= 0)
+            {
+                animator.SetTrigger("Dead");
+            }
+        }
     }
 }

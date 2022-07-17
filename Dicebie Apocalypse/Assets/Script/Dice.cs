@@ -18,7 +18,6 @@ public class Dice : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentDice = "paper";
         render = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         DieOutput = Random.Range(1, 7);

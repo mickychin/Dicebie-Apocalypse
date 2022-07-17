@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GiveIron : MonoBehaviour
 {
+    public Zombie zombie;
     public float hp = 6;
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -11,19 +12,20 @@ public class GiveIron : MonoBehaviour
         if (collision.gameObject.CompareTag("Dice"))
         {
             Dice die = collision.gameObject.GetComponent<Dice>();
-            hp -= die.DieOutput;
+            hp -= die.DieOutput * die.DiceDamage;
             Debug.Log(hp);
-            Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<Dice>().BounceOffSMTH();
             if (hp <= 0)
             {
                 if (die.DieOutput > 1)
                 {
-                    //get amount of Iron base on the dice
-                    FindObjectOfType<GameMaster>().Iron += die.DieOutput;
+                    //get amount of scrap base on the dice
+                    FindObjectOfType<GameMaster>().Scrap += die.DieOutput * die.DiceDamage;
                 }
                 else
                 {
                     //well too bad you got 1 so summon zombie
+                    Zombie spawn = Instantiate(zombie, transform.position, Quaternion.identity);
                 }
                 Destroy(gameObject);
             }

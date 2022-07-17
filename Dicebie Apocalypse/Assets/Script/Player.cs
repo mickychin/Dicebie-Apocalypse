@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    public string currentDice;
     Animator animator;
 
     Rigidbody2D rb;
@@ -18,9 +20,13 @@ public class Player : MonoBehaviour
     public float fireRate;
     public bool canShoot;
 
+    public Button[] CraftDieButt;
+    public Button MakeIronButt;
+
     // Start is called before the first frame update
     void Start()
     {
+        currentDice = "paper";
         canShoot = true;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -79,9 +85,76 @@ public class Player : MonoBehaviour
         d.transform.position = transform.position;
         d.transform.rotation = Quaternion.Euler(0f, 0f, rotationZZ);
         d.GetComponent<Rigidbody2D>().velocity = direction * diceSpeed;
+        d.GetComponent<Dice>().currentDice = currentDice;
 
         yield return new WaitForSeconds(fireRate);
 
         canShoot = true;
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Workbench"))
+        {
+            //Debug.Log("work?");
+            CraftDieButt[0].gameObject.SetActive(true);
+            CraftDieButt[1].gameObject.SetActive(true);
+            CraftDieButt[2].gameObject.SetActive(true);
+        }
+        if (col.CompareTag("Furnance"))
+        {
+            //Debug.Log("work?");
+            MakeIronButt.gameObject.SetActive(true);
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.CompareTag("Workbench"))
+        {
+            CraftDieButt[0].gameObject.SetActive(false);
+            CraftDieButt[1].gameObject.SetActive(false);
+            CraftDieButt[2].gameObject.SetActive(false);
+        }
+        if (col.CompareTag("Furnance"))
+        {
+            //Debug.Log("work?");
+            MakeIronButt.gameObject.SetActive(false);
+        }
+    }
+
+    public void MakeIron()
+    {
+        GameMaster gm = FindObjectOfType<GameMaster>();
+        if(gm.CostToMakeIron <= gm.Scrap)
+        {
+            gm.Scrap -= gm.CostToMakeIron;
+            gm.Iron += 1;
+            gm.CostToMakeIron = Random.Range(1, 7);
+        }
+    }
+
+    public void ChangeDiceTo(string diceto)
+    {
+        GameMaster gm = FindObjectOfType<GameMaster>();
+        if (diceto == "wood" && gm.Wood >= 10)
+        {
+            gm.Wood -= 10;
+            currentDice = diceto;
+        }
+        //if(diceto == "plastic" && gm.Plastic >= 50)
+        //{
+        //    currentDice = diceto;
+        //}
+        if (diceto == "iron" && gm.Iron >= 25)
+        {
+            gm.Iron -= 25;
+            currentDice = diceto;
+        }
+        if (diceto == "scrap" && gm.Scrap >= 15)
+        {
+            gm.Scrap -= 15;
+            currentDice = diceto;
+        }
     }
 }
