@@ -198,7 +198,13 @@ MonoBehaviour:
     The amount of resources you get is also random. Find workbenches
     to craft better dices and other objects.
 
-    Hold down esc to quit to main menu.'
+    Once a dice is thrown walk to it
+    to pick it back up.
+
+    Press Shift to sprint. (Move Faster).
+
+    Hold down
+    esc to quit to main menu.'
 --- !u!222 &22806709
 CanvasRenderer:
   m_ObjectHideFlags: 0

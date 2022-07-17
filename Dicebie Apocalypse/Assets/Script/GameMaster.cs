@@ -56,7 +56,7 @@ public class GameMaster : MonoBehaviour
             stone.GetComponent<GiveIron>().SummonTree = true;
         }
 
-        Invoke("GenerateStuff", Random.Range(5, 10));
+        Invoke("GenerateStuff", Random.Range(3, 6));
     }
 
     // Update is called once per frame

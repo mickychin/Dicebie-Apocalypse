@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
-    public float PaperDice = 1;
+    public float PaperDice = 3;
     public float IronDiceHave = 0;
     public float ScrapDiceHave = 0;
     public float WoodDiceHave = 0;
     public string currentDice;
+    public TextMeshProUGUI PaperDiceCount;
+    public TextMeshProUGUI IronDiceCount;
+    public TextMeshProUGUI ScrapDiceCount;
+    public TextMeshProUGUI WoodDiceCount;
     Animator animator;
 
     Rigidbody2D rb;
@@ -29,6 +34,11 @@ public class Player : MonoBehaviour
 
     public GameObject Car;
     public bool isCar;
+
+    public bool isWorkbench;
+
+    public AudioSource source;
+    public AudioClip walk;
 
     // Start is called before the first frame update
     void Start()
@@ -73,40 +83,43 @@ public class Player : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            if(IronDiceHave > 0)
+            if(isWorkbench == false)
             {
-                currentDice = "iron";
-                IronDiceHave--;
-            }
-            else if(ScrapDiceHave > 0)
-            {
-                currentDice = "scrap";
-                ScrapDiceHave--;
-            }
-            else if (WoodDiceHave > 0)
-            {
-                currentDice = "wood";
-                WoodDiceHave--;
-            }
-            else if (PaperDice > 0)
-            {
-                currentDice = "paper";
-                PaperDice--;
-            }
-            else
-            {
-                Debug.Log("You have no dice left go pick it up u **************");
-                return;
-            }
-            //Shoot the dice
-            Vector3 difference = target - transform.position;
-            float rotationZ = Mathf.Atan2(difference.y, difference.x);
-            float distance = difference.magnitude;
-            Vector2 direction = difference / distance;
-            direction.Normalize();
-            StartCoroutine(fireDice(direction, rotationZ));
+                if(IronDiceHave > 0)
+                {
+                    currentDice = "iron";
+                    IronDiceHave--;
+                }
+                else if(ScrapDiceHave > 0)
+                {
+                    currentDice = "scrap";
+                    ScrapDiceHave--;
+                }
+                else if (WoodDiceHave > 0)
+                {
+                    currentDice = "wood";
+                    WoodDiceHave--;
+                }
+                else if (PaperDice > 0)
+                {
+                    currentDice = "paper";
+                    PaperDice--;
+                }
+                else
+                {
+                    Debug.Log("You have no dice left go pick it up u **************");
+                    return;
+                }
+                //Shoot the dice
+                Vector3 difference = target - transform.position;
+                float rotationZ = Mathf.Atan2(difference.y, difference.x);
+                float distance = difference.magnitude;
+                Vector2 direction = difference / distance;
+                direction.Normalize();
+                StartCoroutine(fireDice(direction, rotationZ));
 
-            canShoot = false;
+                canShoot = false;
+            }
         }
 
         if(isCar)
@@ -120,13 +133,21 @@ public class Player : MonoBehaviour
             if(Input.GetKey(KeyCode.LeftShift))
             {
                 moveSpeed = 10;
+                GetComponent<Animator>().speed = 2.5f;
             }
             else
             {
                 moveSpeed = 5; 
+                GetComponent<Animator>().speed = 1.0f;
+                source.PlayOneShot(walk);
             }
             
         }
+        PaperDiceCount.text = PaperDice.ToString();
+        WoodDiceCount.text = WoodDiceHave.ToString();
+        ScrapDiceCount.text = ScrapDiceHave.ToString();
+        IronDiceCount.text = IronDiceHave.ToString();
+
 
     }
 
@@ -147,6 +168,7 @@ public class Player : MonoBehaviour
     {
         if (col.CompareTag("Workbench"))
         {
+            isWorkbench = true;
             //Debug.Log("work?");
             CraftDieButt[0].gameObject.SetActive(true);
             CraftDieButt[1].gameObject.SetActive(true);
@@ -154,6 +176,7 @@ public class Player : MonoBehaviour
         }
         if (col.CompareTag("Furnance"))
         {
+            isWorkbench = true;
             //Debug.Log("work?");
             MakeIronButt.gameObject.SetActive(true);
         }
@@ -163,12 +186,14 @@ public class Player : MonoBehaviour
     {
         if (col.CompareTag("Workbench"))
         {
+            isWorkbench = false;
             CraftDieButt[0].gameObject.SetActive(false);
             CraftDieButt[1].gameObject.SetActive(false);
             CraftDieButt[2].gameObject.SetActive(false);
         }
         if (col.CompareTag("Furnance"))
         {
+            isWorkbench = false;
             //Debug.Log("work?");
             MakeIronButt.gameObject.SetActive(false);
         }

@@ -26,7 +26,7 @@ public class QuitGame : MonoBehaviour
             count = 1;
             Quitting.SetActive(false);
         }
-        if(count > 600)
+        if(count > 400)
         {
             Debug.Log("QuitGame");
             SceneManager.LoadScene(0);
