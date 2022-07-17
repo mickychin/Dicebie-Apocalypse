@@ -274,6 +274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &40924528
@@ -397,6 +398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &48075784
@@ -741,6 +743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &70353301
@@ -959,6 +962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &71436569
@@ -1479,6 +1483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &103707761
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1600,6 +1605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &130263510
@@ -1900,6 +1906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &191368484
@@ -2150,6 +2157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &212753553
@@ -2369,6 +2377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &221496876
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2700,6 +2709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &262682261
@@ -3001,6 +3011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &282297119
@@ -3124,6 +3135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &283714776
@@ -3382,6 +3394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &290767315
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3808,6 +3821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &348793394
@@ -3931,6 +3945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &351461592
@@ -4054,6 +4069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &355787704
@@ -4444,6 +4460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &405364792
@@ -4690,6 +4707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &413482040
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4811,6 +4829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &438882441
@@ -5131,6 +5150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &480053990
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5252,6 +5272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &490627043
@@ -5377,6 +5398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &501351166
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5863,6 +5885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &553566821
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5984,6 +6007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &563526649
@@ -6183,6 +6207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &592003128
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6304,6 +6329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &607449421
@@ -6427,6 +6453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &607530189
@@ -6550,6 +6577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &608324120
@@ -6759,6 +6787,7 @@ Transform:
   m_LocalScale: {x: 1.6, y: 1.6, z: 1}
   m_Children:
   - {fileID: 1912458206}
+  - {fileID: 1531928431}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6868,6 +6897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &613983265
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7110,6 +7140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &635414034
@@ -7300,6 +7331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &670059240
@@ -7425,6 +7457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &674669499
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7546,6 +7579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &683691995
@@ -7968,6 +8002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &708962413
@@ -8171,6 +8206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &737960269
@@ -8294,6 +8330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &740741875
@@ -8372,129 +8409,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &744854499
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 744854500}
-  - component: {fileID: 744854503}
-  - component: {fileID: 744854502}
-  - component: {fileID: 744854501}
-  m_Layer: 0
-  m_Name: Tree (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &744854500
+--- !u!4 &744854500 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5728520466688040583, guid: 3145e77257dbc4d44acc455f07e1d708,
+    type: 3}
+  m_PrefabInstance: {fileID: 5728520466345971043}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 744854499}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1865271931}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &744854501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 744854499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
-  hp: 6
---- !u!61 &744854502
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 744854499}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1.1977391}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4, y: 5.7}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 3.3954782}
-  m_EdgeRadius: 0
---- !u!212 &744854503
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 744854499}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 38cf2b410aea41243b72d5a2024c7ece, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &748536159
 GameObject:
   m_ObjectHideFlags: 0
@@ -8661,6 +8581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &787744419
@@ -8784,6 +8705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &802565838
@@ -8907,6 +8829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &811719905
@@ -9272,6 +9195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &856851783
@@ -9397,6 +9321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &858148454
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9639,6 +9564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &875836886
@@ -9957,6 +9883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &901598450
@@ -10169,6 +10096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &911607329
@@ -10292,6 +10220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &924022907
@@ -10415,6 +10344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &926623934
@@ -10540,6 +10470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &933179203
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10661,6 +10592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &938772613
@@ -10873,6 +10805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &941461433
@@ -10996,6 +10929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &948057524
@@ -11249,6 +11183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &955780852
@@ -11374,6 +11309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &956741646
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11902,6 +11838,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &995805155
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12114,6 +12051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &1012724437
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12237,6 +12175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &1047679197
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12787,6 +12726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1099429534
@@ -12910,6 +12850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1106620388
@@ -13141,6 +13082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1124896703
@@ -13264,6 +13206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1126992928
@@ -13387,6 +13330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1156774987
@@ -13510,6 +13454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1160990489
@@ -13722,6 +13667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1179565126
@@ -13847,6 +13793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &1214601270
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13968,6 +13915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1216128928
@@ -14278,6 +14226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1271932515
@@ -14401,6 +14350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1277620198
@@ -14524,6 +14474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1280095691
@@ -14647,6 +14598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1314717870
@@ -14978,6 +14930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1335464306
@@ -15101,6 +15054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1337867181
@@ -15453,6 +15407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1371532954
@@ -15578,6 +15533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &1394113040
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15699,6 +15655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1408064836
@@ -15822,6 +15779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1421898313
@@ -16142,6 +16100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1455387249
@@ -16267,6 +16226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &1472391301
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16587,6 +16547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1498855987
@@ -17060,6 +17021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1518691012
@@ -17440,6 +17402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1521558729
@@ -17563,6 +17526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1525874724
@@ -17688,6 +17652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &1530425238
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17764,6 +17729,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1531928430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1531928431}
+  - component: {fileID: 1531928432}
+  m_Layer: 2
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1531928431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531928430}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 610893240}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1531928432
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531928430}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1538610864
 GameObject:
   m_ObjectHideFlags: 0
@@ -17809,6 +17831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1538610867
@@ -18136,6 +18159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &1563024529
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18346,6 +18370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1597809536
@@ -18469,6 +18494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1605992538
@@ -18592,6 +18618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1611815062
@@ -18715,6 +18742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1623730748
@@ -18838,6 +18866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1627232816
@@ -18961,6 +18990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1639317697
@@ -19084,6 +19114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1644913807
@@ -19328,6 +19359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1688475136
@@ -19451,6 +19483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1692233243
@@ -19665,6 +19698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &1731959436
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19786,6 +19820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1751963657
@@ -19864,129 +19899,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1772117657
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1772117658}
-  - component: {fileID: 1772117661}
-  - component: {fileID: 1772117660}
-  - component: {fileID: 1772117659}
-  m_Layer: 0
-  m_Name: Car (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1772117658
+--- !u!4 &1772117658 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1803588884271322809, guid: 0718d9935448f1d478176db5cd3cf2a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1803588883577145379}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772117657}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1880080140}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1772117659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772117657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8814ddecaa252384c8f70e341c3a9d6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
-  hp: 12
---- !u!61 &1772117660
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772117657}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.029199839, y: -0.15799522}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.1, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.0906773, y: 1.5961776}
-  m_EdgeRadius: 0
---- !u!212 &1772117661
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772117657}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: ddaf0a5703e7fa640a32144534711711, type: 3}
-  m_Color: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1001 &1780573715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20195,6 +20113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1787015151
@@ -20318,6 +20237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1790465526
@@ -20772,6 +20692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1828428343
@@ -21105,6 +21026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1832865060
@@ -21581,6 +21503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1883799372
@@ -21692,6 +21615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &1889650919
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22163,6 +22087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1925839741
@@ -22530,6 +22455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &1969590729
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22653,6 +22579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &1973044726
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22774,6 +22701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1973959043
@@ -23007,6 +22935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &1975332727
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23130,6 +23059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &1978897121
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23385,6 +23315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &1996294242
@@ -23510,6 +23441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &1998040010
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23633,6 +23565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &2010451971
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23756,6 +23689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &2022709831
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23877,6 +23811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &2072738925
@@ -24121,6 +24056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &2084931731
@@ -24228,6 +24164,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942fdfb57e032584fb2498ea572a4288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentTree: 0
+  currentCar: 0
+  woodPrefabs: {fileID: 5728520466688040576, guid: 3145e77257dbc4d44acc455f07e1d708,
+    type: 3}
+  carPrefabs: {fileID: 1803588884271322810, guid: 0718d9935448f1d478176db5cd3cf2a5,
+    type: 3}
   CostToMakeIron: 0
   HPIM:
   - {fileID: 2092510827}
@@ -24493,6 +24435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 12
+  SummonTree: 0
 --- !u!61 &2103429175
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24872,6 +24815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!1 &2124197109
@@ -24919,6 +24863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6c60b9e23258c47a49bf5cb8dfc7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SummonTree: 0
   zombie: {fileID: 3113345470675708327, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
   hp: 6
 --- !u!61 &2124197112
@@ -25131,6 +25076,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139377464}
   m_CullTransparentMesh: 0
+--- !u!1001 &1803588883577145379
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1880080140}
+    m_Modifications:
+    - target: {fileID: 1803588884271322809, guid: 0718d9935448f1d478176db5cd3cf2a5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803588884271322809, guid: 0718d9935448f1d478176db5cd3cf2a5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803588884271322809, guid: 0718d9935448f1d478176db5cd3cf2a5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803588884271322809, guid: 0718d9935448f1d478176db5cd3cf2a5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803588884271322809, guid: 0718d9935448f1d478176db5cd3cf2a5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803588884271322809, guid: 0718d9935448f1d478176db5cd3cf2a5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803588884271322809, guid: 0718d9935448f1d478176db5cd3cf2a5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803588884271322809, guid: 0718d9935448f1d478176db5cd3cf2a5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803588884271322809, guid: 0718d9935448f1d478176db5cd3cf2a5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803588884271322809, guid: 0718d9935448f1d478176db5cd3cf2a5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803588884271322809, guid: 0718d9935448f1d478176db5cd3cf2a5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803588884271322810, guid: 0718d9935448f1d478176db5cd3cf2a5,
+        type: 3}
+      propertyPath: m_Name
+      value: Car (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0718d9935448f1d478176db5cd3cf2a5, type: 3}
 --- !u!1001 &3113345471235800498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25205,6 +25219,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09aa9d36d63ea924db33cb4cc446d3e3, type: 3}
+--- !u!1001 &5728520466345971043
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1865271931}
+    m_Modifications:
+    - target: {fileID: 5728520466688040576, guid: 3145e77257dbc4d44acc455f07e1d708,
+        type: 3}
+      propertyPath: m_Name
+      value: Tree (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728520466688040583, guid: 3145e77257dbc4d44acc455f07e1d708,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728520466688040583, guid: 3145e77257dbc4d44acc455f07e1d708,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728520466688040583, guid: 3145e77257dbc4d44acc455f07e1d708,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728520466688040583, guid: 3145e77257dbc4d44acc455f07e1d708,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728520466688040583, guid: 3145e77257dbc4d44acc455f07e1d708,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728520466688040583, guid: 3145e77257dbc4d44acc455f07e1d708,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728520466688040583, guid: 3145e77257dbc4d44acc455f07e1d708,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728520466688040583, guid: 3145e77257dbc4d44acc455f07e1d708,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728520466688040583, guid: 3145e77257dbc4d44acc455f07e1d708,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728520466688040583, guid: 3145e77257dbc4d44acc455f07e1d708,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728520466688040583, guid: 3145e77257dbc4d44acc455f07e1d708,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3145e77257dbc4d44acc455f07e1d708, type: 3}
 --- !u!1001 &6080611837846213380
 PrefabInstance:
   m_ObjectHideFlags: 0
