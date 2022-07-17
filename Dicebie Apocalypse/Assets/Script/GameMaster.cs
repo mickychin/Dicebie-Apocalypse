@@ -6,6 +6,8 @@ using TMPro;
 
 public class GameMaster : MonoBehaviour
 {
+    public Zombie zombie;
+
     public float currentTree;
     public float currentCar;
     public GameObject woodPrefabs;
@@ -29,6 +31,8 @@ public class GameMaster : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Invoke("SummonZombie", Random.Range(5, 10));
+        Invoke("SummonZombie", Random.Range(5, 10));
         Invoke("GenerateStuff", Random.Range(5, 10));
         Invoke("GenerateStuff", Random.Range(5, 10));
         CostToMakeIron = Random.Range(1, 7);
@@ -58,6 +62,28 @@ public class GameMaster : MonoBehaviour
     void Update()
     {
 
+    }
+
+    void SummonZombie()
+    {
+        Zombie zombo = Instantiate(zombie);
+        if (Random.Range(1, 3) == 1)
+        {
+            zombo.transform.position = new Vector2(FindObjectOfType<Player>().transform.position.x + Random.Range(10, 15), transform.position.y);
+        }
+        else
+        {
+            zombo.transform.position = new Vector2(FindObjectOfType<Player>().transform.position.x + Random.Range(-10, -15), transform.position.y);
+        }
+        if (Random.Range(1, 3) == 1)
+        {
+            zombo.transform.position = new Vector2(zombo.transform.position.x, FindObjectOfType<Player>().transform.position.y + Random.Range(10, 15));
+        }
+        else
+        {
+            zombo.transform.position = new Vector2(zombo.transform.position.x, FindObjectOfType<Player>().transform.position.y + Random.Range(-10, -15));
+        }
+        Invoke("SummonZombie", Random.Range(5, 10));
     }
 
     public void PlayerLoseHp(float HpLoses)
