@@ -7,7 +7,6 @@ public class GiveIron : MonoBehaviour
     public Zombie zombie;
     public float hp = 6;
     public bool SummonTree = false;
-    public GameObject Particle;
     void start()
     {
 
@@ -37,7 +36,6 @@ public class GiveIron : MonoBehaviour
         {
             Dice die = collision.gameObject.GetComponent<Dice>();
             hp -= die.DieOutput * die.DiceDamage;
-            Instantiate(Particle,transform.position, Quaternion.identity);
             Debug.Log(hp);
             collision.gameObject.GetComponent<Dice>().BounceOffSMTH();
             if (hp <= 0)
